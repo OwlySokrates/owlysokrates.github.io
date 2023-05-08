@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-box {
+    border-left: solid #0000ff;
+    border-right: solid #0000ff;
+    border-width: 8px;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  .primary-box {
+    border-left: solid #0000ff;
+    border-right: solid #0000ff;
+    border-width: 8px;
+  }
+  .flex-row {
+    flex-direction: column;
+  }
+}

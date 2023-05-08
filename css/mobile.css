@@ -1,0 +1,59 @@
+@media (max-width: 576px) {
+  #small-avatar {
+    display: none;
+  }
+  #nav-bar {
+    flex-direction: column;
+    height: 200px;
+    border: 0cm;
+    text-align: left;
+  }
+  .a1 {
+    border-width: 0;
+    width: 1fr;
+    padding: 8px;
+    margin: 0px;
+  }
+  .a2 {
+    display: none;
+  }
+  #grid-cont1 {
+    grid-template-columns: 1fr;
+  }
+  #grid-cont2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 800px 500px 400px 500px 600px;
+  }
+  .smaller-word {
+    display: none;
+  }
+  .icon-row {
+    grid-template-columns: 60px 60px 60px 60px;
+  }
+  /* CERTIFICATION */
+  .cert-box1 {
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 100px 150px 100px;
+    border: 0;
+  }
+  .cert-info1 {
+    grid-row: 2;
+  }
+  .cert-bottom-border {
+    border-bottom: solid #d4af37;
+    padding-bottom: 8px;
+    border-width: 2px;
+  }
+  /* PROJECT */
+  .project-box {
+    grid-template-columns: 360px;
+  }
+  /* FOOTER */
+  .footer-row {
+    gap: 10px;
+  }
+}
+
+.hidden {
+  display: none;
+}
